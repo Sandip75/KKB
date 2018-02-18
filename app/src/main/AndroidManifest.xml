@@ -19,7 +19,11 @@
         <activity
             android:name=".home_screen"
             android:label="@string/title_activity_home_screen"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".forgetpassword" />
+        <activity android:name=".conformotp" />
+        <activity android:name=".repassword" />
+        <activity android:name=".registration"></activity>
     </application>
 
 </manifest>

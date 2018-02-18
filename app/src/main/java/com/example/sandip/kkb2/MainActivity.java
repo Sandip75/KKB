@@ -34,13 +34,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public  void forgotpassword(View view){
-       /* Intent i = new Intent(MainActivity.this , forgot_password.class);
-        startActivity(i);*/
+        Intent i = new Intent(MainActivity.this ,forgetpassword.class );
+        startActivity(i);
 
-       FragmentManager fragmentManager = getSupportFragmentManager();
-       fragmentManager.beginTransaction().replace(R.id.layout , new forgot_password(),"ss").commit();
+      /*FragmentManager fragmentManager = getSupportFragmentManager();
+      fragmentManager.beginTransaction().replace(R.id.iv , new forgot_password()).commit();*/
     }
 
     public void signup(View view) {
+        Intent i = new Intent(MainActivity.this ,registration.class );
+        startActivity(i);
+
     }
 }

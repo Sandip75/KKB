@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1d2129"
+    tools:context="com.example.sandip.kkb2.registration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textColor="#DBFF33"
+        android:layout_marginTop="40dp"
+        android:text="Registration Page"/>
+
+    <EditText
+        android:id="@+id/remail3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#775A54"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:hint="Full Name"/>
+
+    <EditText
+        android:id="@+id/remail4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#775A54"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:hint="Email ID"/>
+
+    <EditText
+        android:id="@+id/remail5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#775A54"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/remai6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#775A54"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:hint="Confirm Password"/>
+
+
+    <EditText
+        android:id="@+id/remail7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#775A54"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:hint="Mobile Number"/>
+
+    <EditText
+        android:id="@+id/remail8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#775A54"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:hint="Referral Code"/>
+
+    <CheckBox android:id="@+id/checkbox_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#775A54"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="I accept
+(Terms and condition)"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:background="#76DC2E"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_gravity="center"
+        android:onClick="regi"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
